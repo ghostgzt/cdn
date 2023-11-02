@@ -15,5 +15,5 @@ fs.readdir('./', (err, files) => {
         return '<a href="'+href+'">'+item+'<href>'
     });
     console.log(data);
-    fs.writeFileSync("./index.html",data.join("\n"));
+    fs.writeFileSync("./sited",data.join("\n"));
 });
