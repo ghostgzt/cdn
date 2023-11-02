@@ -1,0 +1,2 @@
+node ./make.js
+pause
